@@ -1,33 +1,19 @@
 public class isUnique
 {
     //Test case = "abcde"-->return true
-    //Test case 2 = "aabcde"--> return false
-
-    //helper function..to help compare two characters
-    public boolean compareChar (char a, char b)
-    {
-        if (a == b)
-        {
-            return false;
-        }
-        else
-        {
-            return true;
-        }
-    }
-
+    //Test case 2 = "aacbde***-**********************************--> return false
+    //Approach 1--most optimal
     public boolean isunique(String s)
     {
-        
-        for (int i = 0; i < s.length()-1; i++)
+        boolean [] check = new boolean[128];
+        for (int i = 0; i < s.length(); i++)
         {
-            char a = s.charAt(i);
-            char b = s.charAt(i+1);
-            //System.out.println("current a is: " + a + "\n" + "and current b is: " + b+  "\n");
-            if (!compareChar(a, b))
+            char curr = s.charAt(i);
+            if (check[curr])
             {
                 return false;
             }
+            check[curr] = true;
         }
         return true;
     }
@@ -35,10 +21,10 @@ public class isUnique
     public static void main(String args[])
     {
         isUnique tester = new isUnique();
-        String s = "abcde";
-        String t = "aabce";
+        String s = "hehlo";
+        //String t = "aabce";
         System.out.println("Boolean value is: " + tester.isunique(s));
-        System.out.println("Boolean value is: " + tester.isunique(t));
+        //System.out.println("Boolean value is: " + tester.isunique(t));
     }
 
 }
