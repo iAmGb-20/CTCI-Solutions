@@ -1,7 +1,7 @@
 public class isUnique
 {
     //Test case = "abcde"-->return true
-    //Test case 2 = "aacbde***-**********************************--> return false
+    //Test case 2 = "aacbde--> return false
     //Approach 1--most optimal
     public boolean isunique(String s)
     {
