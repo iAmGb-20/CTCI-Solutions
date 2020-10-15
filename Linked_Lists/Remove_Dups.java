@@ -14,6 +14,8 @@ public class Remove_Dups extends LinkedList
         If I see an element, I add it to the hashtable only if it is not there
         If it is there, I change the pointers to make sure the previous element points to the element next to the repeated one
         helper functions?? How will I move the pointers??r
+
+        use two pointers and a hashset
     */
     
     public void remove_dups (Node head)
