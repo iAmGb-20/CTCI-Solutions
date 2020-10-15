@@ -2,6 +2,7 @@ import java.util.HashSet;
 
 public class Remove_Dups extends LinkedList
 {
+    
     /*
     Remove duplicates from an unsorted linked list
     --using a hashtable
