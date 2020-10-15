@@ -1,16 +1,6 @@
-import java.util.*;
+import java.util.HashSet;
 
-public class LinkedList
-{
-    Node head;
-
-    class Node 
-    {
-        Node next = null;
-        int data;
-    }
-}
-public class Remove_Dups.java
+public class Remove_Dups extends LinkedList
 {
     /*
     Remove duplicates from an unsorted linked list
@@ -25,9 +15,9 @@ public class Remove_Dups.java
         helper functions?? How will I move the pointers??r
     */
     
-    public boolean remove_dups (Node head)
+    public void remove_dups (Node head)
     {
-        Hashset<Integer> set = new Hashset<Integer>();
+        HashSet<Integer> set = new HashSet<Integer>();
         Node prev = null;
         while (head != null)
         {
@@ -62,7 +52,7 @@ public class Remove_Dups.java
             }
         }
         Code would take O(n) time whereby n is the number of elements in the list
-        
+
         */
 
 
