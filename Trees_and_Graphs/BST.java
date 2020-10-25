@@ -31,7 +31,7 @@ public class BST
     }
 
     //searching in a BST
-    boolean search (BSTNode root, int data)
+    public boolean search (BSTNode root, int data)
     {
         if (root == null)
         {
@@ -50,6 +50,8 @@ public class BST
             return search(root.right, data);
         }
     }
+
+
 
     //function to create a new BST node
     public BSTNode getNewNode (int data)
