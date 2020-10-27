@@ -5,8 +5,18 @@ public class BST
         int data;
         BSTNode left;
         BSTNode right;
-    }
 
+        public BSTNode(int data)
+        {
+            this.data = data;
+        }
+        public BSTNode()
+        {
+            
+        }
+
+    }
+    
     BSTNode root;
 
     //inserting to a BST
