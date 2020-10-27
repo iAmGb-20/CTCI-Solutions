@@ -4,7 +4,7 @@ public class Level_order extends BST
     public void LevelOrder(BSTNode root)
     {
         if (root == null) return;
-        Queue<BSTNode> Q = new LinkedList<BSTNode>();
+        Queue<BSTNode> Q = new LinkedList<>();
         Q.offer(root);
         while (!Q.isEmpty())
         {
@@ -19,9 +19,9 @@ public class Level_order extends BST
 
     public List<List<Integer>>levelorder (BSTNode root)
     {
-        List<List<Integer>> lorder = new LinkedList<List<Integer>>();
+        List<List<Integer>> lorder = new LinkedList<>();
         if (root == null) return lorder; //return an empty list in case the root is null
-        Queue<BSTNode> toDiscover = new LinkedList<BSTNode>();
+        Queue<BSTNode> toDiscover = new LinkedList<>();
         toDiscover.offer(root);
 
         while(!toDiscover.isEmpty())
