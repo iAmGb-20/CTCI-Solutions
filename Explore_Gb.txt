@@ -1,0 +1,23 @@
+Godbless Chille
+My prep for the Microsoft explore internship--Summer 2021
+
+Questions to be solved in prep for Explore final:
+
+PM Questions:
+1) If you were given a keyboard, how would you test the keys?
+2) How would you test a pen?
+3) How would you design a calculator for a visually impared student?
+4) How would you design a vending machine or a toaster?
+5) You have a series of numbers from one to one million and there is a missing number; how would you find the missing numbers?
+6) In 2 to 3 minutes, explain a computer to a  year old who has seen a computer, but doesn't really understand what it is or does
+7) What is the difference between C and Java/ between C and C# and how might this impact design decisions?
+
+Dev questions:
+1) What is the best data structure for a phone book with names and phone numbers? Code an example solution and explain
+2) Print values in a doubly linked list in descending order
+3) Invert a binary search tree
+4) Sort an array, stack, and queue in arrays and linked lists.
+5) Write a program that returns the acute angle between two hands of a clock
+6) Keep track of the positions of people in a line (Not that some questions asked are intentionally vague; ask clarifying questions. Can we consider this a sorted list? i.e are they allowed to move around or not? What does that movement look like? That details matters.
+7) Remove duplicates in a list
+8) Reverse a string
