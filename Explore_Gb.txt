@@ -21,3 +21,52 @@ Dev questions:
 6) Keep track of the positions of people in a line (Not that some questions asked are intentionally vague; ask clarifying questions. Can we consider this a sorted list? i.e are they allowed to move around or not? What does that movement look like? That details matters.
 7) Remove duplicates in a list
 8) Reverse a string
+
+Glassdoor questions: (Dev = D, PM = P)
+1)Given a binary tree filled with numbers, write a program that would return the level with the highest average (D)
+2) Create a function to return if a string is a palindrome (D)
+3) Sort an unordered array of objects (D)
+4) Write an algorithm that reverses an integer (D)
+5) Remove duplicates from a linked list
+6) Write a function that accepts a list and returns the number of occurrences of the most frequent occurring item in the list 
+7) use stacks to make a queue
+7) Merge two linked lists together
+8) Find the nth element from the end of the linked list
+9)How would you code to get all the unique characters from a string?
+10) What is the difference between a process and a thread?
+11) Write a method that compares two binary trees
+12) Given two sorted arrays, write a method that combines the two sorted arrays into a third array that is also sorted
+13) Count all possible squares in a grid
+14) Delete an item from a doubly linked list
+15) Reverse a singly linked list
+16) Reverse a doubly linked list
+17) Which one is better? Open or closed source?
+18) Given a sorted array of integers, remove the duplicates and return the size of the new array
+19) Explain recursion to a non-CS person
+20) check for circularity in a linked list
+21) Find all permutations of a word and check if they are real words
+22) Given a BST, return the second largest number
+23) Given an NxM matrix, iterate through it in a spiral direction
+24) Write a program that will find all the prime numbers in an array
+25) Implement a stack with two queues
+26) Sort an array
+27) Given an array of numbers from 1 to N but there's one missing, return the missing number
+28) Code bubble sort
+29) Find the middle node of a linked list
+30) Given an ascending sorted array of ints, write an also to push all the duplicates to the back [1,2,2,4,5,5] --> [1,2,4,5,2,5]
+31) You have a sorted array A length m and a sorted array B length n. Insert array elements in order into an array C with length m+n.
+32) What is the most efficient way of checking if a letter in the second string is in the first string in the previous problem? What if you're using all ASCII characters? What if you're using the entire Unicode character set?
+33) Given 2 strings, remove every instance of every letter in the second string from the first string. Then do it without shifting letters in the first string or creating another string. 
+
+1) How would you test a computer mouse? (P)
+2) What are the three most important features for a microwave for college students?(P)
+3) How to improve an airport
+4) Tell me about yourself
+5) Would you prefer a development or a PM role? 
+6) How would you design an elevator system for an office building?
+7) If you could change the design of one existing thing, what would it be and what would be the change?
+8) Design a traffic light 
+9) How would you implement a website for a ticketing site?
+10) What's your favorite Microsoft product and how would you improve it?
+11) Design a coffee machine for the space station
+12) Why Microsoft?
