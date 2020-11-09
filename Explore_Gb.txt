@@ -19,8 +19,16 @@ Dev questions:
 4) Sort an array, stack, and queue in arrays and linked lists.
 5) Write a program that returns the acute angle between two hands of a clock
 6) Keep track of the positions of people in a line (Not that some questions asked are intentionally vague; ask clarifying questions. Can we consider this a sorted list? i.e are they allowed to move around or not? What does that movement look like? That details matters.
-7) Remove duplicates in a list
-8) Reverse a string
+
+Inika's qns: https://www.notion.so/Technical-e126b5cb726449488a22be7a22ec7c0f
+1) Remove duplicates in a list**
+2) Reverse a string**
+3) Reverse an integer**
+4) Delete an item from a doubly linked list**
+5) Given a sorted array of integers, remove the duplicates and return the size of the new array **
+6) Rotate a matrix by 90 degrees**
+7) Given two sorted arrays, write a function that combines the two sorted arrays to a third array that is also sorted**
+8) Write a function that accepts a list and returns the number of occurrences of the most frequently occurring item in the list**
 
 Glassdoor questions: (Dev = D, PM = P)
 1)Given a binary tree filled with numbers, write a program that would return the level with the highest average (D)
